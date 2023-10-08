@@ -18,6 +18,24 @@ public class Calculator {
 		this.operator = operator;
 	}
 	
+	private Double calculate() {
+		return 0.0;
+	}
 	
+	private Double addition() {
+		return operand1 + operand2;
+	}
+	
+	private Double subtraction() {
+		return operand1 - operand2;
+	}
+	
+	private Double multiplication() {
+		return operand1 * operand2;
+	}
+	
+	private Double division() {
+		return operand1 / operand2;
+	}
 	
 }
