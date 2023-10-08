@@ -11,7 +11,15 @@ public class Calculator {
 		this.operand1 = operand1;
 		this.operand2 = operand2;
 		this.operator = operator;
+		
+		calculate();
 	}
+	
+	public Double result() {
+		return this.result;
+	}
+	
+	
 	
 	private void calculate() {
 		
