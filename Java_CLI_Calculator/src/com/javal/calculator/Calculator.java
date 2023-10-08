@@ -13,8 +13,21 @@ public class Calculator {
 		this.operator = operator;
 	}
 	
-	private Double calculate() {
-		return 0.0;
+	private void calculate() {
+		
+		switch(operator) {
+		case "+":
+			this.result = addition();
+		case "-":
+			this.result = subtraction();
+		case "*":
+			this.result = multiplication();
+		case "/":
+			this.result = division();
+		default:
+			this.result = 0.0;
+				
+		}		
 	}
 	
 	private Double addition() {
