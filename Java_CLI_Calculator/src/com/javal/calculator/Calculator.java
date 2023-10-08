@@ -26,12 +26,16 @@ public class Calculator {
 		switch(operator) {
 		case "+":
 			this.result = addition();
+			break;
 		case "-":
 			this.result = subtraction();
+			break;
 		case "*":
 			this.result = multiplication();
+			break;
 		case "/":
 			this.result = division();
+			break;
 		default:
 			this.result = 0.0;
 				
