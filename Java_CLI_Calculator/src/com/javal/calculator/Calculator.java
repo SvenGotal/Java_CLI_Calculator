@@ -14,12 +14,14 @@ public class Calculator {
 		
 		calculate();
 	}
-	
+
+	public Calculator(String equation) {
+		
+	}
+			
 	public Double result() {
 		return this.result;
 	}
-	
-	
 	
 	private void calculate() {
 		
